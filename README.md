@@ -5,9 +5,9 @@ This project is a Swift iOS application designed to display fortunes from the As
 ## Screen
 
 ![Demo](./screenshot/ScreenRecording.gif)
-![Demo](./screenshot/outlet.gif)
+![outlet](./screenshot/outlet.gif)
 ![page1](./screenshot/IMG_1420.PNG)
-![page1](./screenshot/IMG_1421.PNG)
+![page2](./screenshot/IMG_1421.PNG)
 
 ## Features
 
