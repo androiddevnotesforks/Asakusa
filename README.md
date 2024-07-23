@@ -1,8 +1,8 @@
-# Asakusa Shrine 100 Fortunes iOS App
+# Asakusa
 
 This project is a Swift iOS application designed to display fortunes from the Asakusa Shrine. The fortunes are stored in Google Apps Script and can be accessed via an API. The app allows users to fetch specific fortunes using a query parameter.
 
-## Screen
+## Screenshot
 
 ![Demo](./screenshot/ScreenRecording.gif)
 ![outlet](./screenshot/outlet.gif)
@@ -19,12 +19,12 @@ This project is a Swift iOS application designed to display fortunes from the As
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/asakusa-shrine-100-fortunes.git
+   git clone https://github.com/s1031432/asakusa.git
    ```
 2. Open the project in Xcode:
    ```bash
-   cd asakusa-shrine-100-fortunes
-   open AsakusaShrine100Fortunes.xcodeproj
+   cd asakusa
+   open asakusa.xcodeproj
    ```
 3. Install dependencies (if any).
 4. Build and run the project on your preferred iOS device or simulator.
@@ -47,8 +47,9 @@ Replace `{fortune_number}` with the specific number (1-100) of the fortune you w
 
 To fetch the 87th fortune, the URL would be:
 ```
-https://script.google.com/macros/s/your_script_id/exec?number=87
+https://script.google.com/macros/s/AKfycbz_7GMhrxE0fzbiKDgkTtFPh0KiniMTZUz-Iepp0VeoMBTvp6EpmSmB-SYywLJPWfvbjQ/exec?number=87
 ```
+If no number is provided, a signed poem will be returned randomly.
 
 ## Contributing
 
