@@ -35,7 +35,7 @@ class Poem: Codable {
     let poem: String
     let explain: String
     let result: [String: String]
-    let note: String
+    let note: String?
 
     enum CodingKeys: String, CodingKey {
         case id
@@ -89,7 +89,6 @@ class ViewController: UIViewController, UITableViewDataSource {
     }
     
     func fetchPoems(randomNumber: Int) {
-        
         guard let url = URL(string: "https://script.google.com/macros/s/AKfycbz_7GMhrxE0fzbiKDgkTtFPh0KiniMTZUz-Iepp0VeoMBTvp6EpmSmB-SYywLJPWfvbjQ/exec?number=\(randomNumber)") else { return }
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard let data = data, error == nil else {
